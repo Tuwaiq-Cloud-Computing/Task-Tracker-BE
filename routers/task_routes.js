@@ -43,7 +43,7 @@ router.post("/task", async (req, res) => {
   }
 });
 // 4. read a single task
-router.get("/task/:id", async (sreq, res) => {
+router.get("/task/:id", async (req, res) => {
   userid = req.params.id;
   try {
     const getTask = await prisma.tasks.findUnique({
