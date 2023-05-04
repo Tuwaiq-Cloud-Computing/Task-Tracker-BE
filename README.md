@@ -20,7 +20,7 @@
 
 
 ### Database  :
-#### Use This SQL code to create the database
+#### Use This SQL code to create the table
 
 
 CREATE TABLE Tasks (ID int PRIMARY key AUTO_INCREMENT ,task VARCHAR (256) , isDone BOOLEAN  );
