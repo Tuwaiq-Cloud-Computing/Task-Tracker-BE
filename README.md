@@ -17,3 +17,10 @@
 - npx pm2 save
 
 #### After running these commands create custom images of this instance and use it as auto-scaling image
+
+
+### Database  :
+#### Use This SQL code to create the database
+
+
+CREATE TABLE Tasks (ID int PRIMARY key AUTO_INCREMENT ,task VARCHAR (256) , isDone BOOLEAN  );
